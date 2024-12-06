@@ -1,0 +1,11 @@
+const express = require("express");
+
+const {
+    fetchAllUsers, createUser,
+} = require("../../controllers/admin/users-controller");
+
+
+const router = express.Router();
+router.get("/get", fetchAllUsers);
+router.post("/create", createUser);
+module.exports = router;
