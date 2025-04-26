@@ -206,7 +206,7 @@ export const addressFormControls = [
     name: "pincode",
     componentType: "input",
     type: "text",
-    placeholder: "Enter your Zipcode",
+    placeholder: "Enter your pincode",
   },
   {
     label: "Phone",
